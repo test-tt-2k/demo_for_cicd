@@ -12,6 +12,8 @@
     "web-vitals": "^2.1.4"
   },
   "homepage": "https://test-tt-2k.github.io/my-app",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
